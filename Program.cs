@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.ForegroundColor = ConsoleColor.Green;
         double dec = 0;
         string Input = CheckInput();
         string binaryInput = Reverse(Input);
